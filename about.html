@@ -1,121 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <!-- font awasome cdn link -->
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-   <!-- custome css link -->
-    <link rel="stylesheet" href="style.css">
-   
-</head>
-<body>
-   <!-- header section start -->
-   <header class="header">
-    <a href="home.html" class="logo"><i class="fas fa-pizza-slice"></i>pizza</a>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- font awasome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <!-- custome css link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header section start -->
+    <header class="header">
+      <a href="index.html" class="logo"
+        ><i class="fas fa-pizza-slice"></i>pizza</a
+      >
 
-    <nav class="navbar">
-      <a href="home.html">home</a>
-      <a href="about.html">about</a>
-      <a href="menu.html">menu</a>
-      <a href="gallery.html">gallery</a>
-      <a href="contact.html">contact </a>
-    </nav>
+      <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="menu.html">menu</a>
+        <a href="gallery.html">gallery</a>
+        <a href="contact.html">contact </a>
+      </nav>
 
-    <div class="icons">
-      <div id="cart" class="fas fa-shopping-cart"></div>
-      <div id="login" class="fas fa-user"></div>
-      <div id="menu" class="fas fa-bars"></div>
+      <div class="icons">
+        <div id="cart" class="fas fa-shopping-cart"></div>
+        <div id="login" class="fas fa-user"></div>
+        <div id="menu" class="fas fa-bars"></div>
+      </div>
+
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-1.png" alt="" />
+          <div class="content">
+            <h3>pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">$20</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-2.png" alt="" />
+          <div class="content">
+            <h3>pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">$20</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <i class="fas fa-times"></i>
+          <img src="images/cart-3.png" alt="" />
+          <div class="content">
+            <h3>pizza</h3>
+            <span class="quantity">1</span>
+            <span class="multiply">*</span>
+            <span class="price">$20</span>
+          </div>
+        </div>
+        <h3 class="total">total:$58</h3>
+        <a href="#" class="btn">checkout cart</a>
+      </div>
+
+      <form action="" class="login-form">
+        <h3>login form</h3>
+        <input type="email" placeholder="enter your email" class="box" />
+        <input type="password" placeholder="enter your password" class="box" />
+        <div class="remember">
+          <input type="checkbox" name="" id="remember-me" />
+          <label for="remember-me">remember me</label>
+        </div>
+        <input type="submit" value="login" class="btn" />
+      </form>
+    </header>
+    <!-- header section end -->
+
+    <div class="heading">
+      <h1>about us</h1>
+      <p><a href="index.html">home>>></a>about</p>
     </div>
 
-    <div class="shopping-cart">
+    <!-- about section start -->
 
-      <div class="box">
-        <i class="fas fa-times"></i>
-        <img src="images/cart-1.png" alt="">
+    <section class="about">
+      <div class="row">
+        <div class="image">
+          <img src="images/about.jpg" alt="" />
+        </div>
         <div class="content">
-          <h3>pizza</h3>
-          <span class="quantity">1</span>
-          <span class="multiply">*</span>
-          <span class="price">$20</span>
+          <h3>welcome to our <span> pizza</span> shop</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui
+            corrupti temporibus deserunt ut placeat, aperiam obcaecati quidem
+            velit autem unde, aliquam harum voluptas recusandae iusto sit
+            tempora. Veritatis, sed quos?
+          </p>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat
+            dolores vero ipsam, iste sint officia tempora assumenda facilis
+            voluptas, porro adipisci quis hic placeat, distinctio eum? Ea
+            consectetur explicabo debitis?
+          </p>
+          <a href="#"></a>
         </div>
       </div>
+    </section>
 
-      <div class="box">
-        <i class="fas fa-times"></i>
-        <img src="images/cart-2.png" alt="">
-        <div class="content">
-          <h3>pizza</h3>
-          <span class="quantity">1</span>
-          <span class="multiply">*</span>
-          <span class="price">$20</span>
+    <!-- about section end -->
 
-        </div>
-      </div>
+    <!-- blog section start -->
 
-      <div class="box">
-        <i class="fas fa-times"></i>
-        <img src="images/cart-3.png" alt="">
-        <div class="content">
-          <h3>pizza</h3>
-          <span class="quantity">1</span>
-          <span class="multiply">*</span>
-          <span class="price">$20</span>
-        </div>
-      </div>
-      <h3 class="total">total:$58</h3>
-      <a href="#" class="btn">checkout cart</a>
-    </div>
-
-    <form action="" class="login-form">
-      <h3>login form</h3>
-      <input type="email" placeholder="enter your email" class="box">
-      <input type="password" placeholder="enter your password" class="box">
-      <div class="remember">
-        <input type="checkbox" name="" id="remember-me">
-        <label for="remember-me">remember me</label>
-      </div>
-      <input type="submit" value="login" class="btn">
-
-    </form>
-   
-
-   </header>
-  <!-- header section end -->
-
-  <div class="heading">
-    <h1>about us</h1>
-    <p><a href="home.html">home>>></a>about</p>
-  </div>
-
-  <!-- about section start -->
-
-  <section class="about">
-    <div class="row">
-      <div class="image">
-        <img src="images/about.jpg" alt="">
-      </div>
-      <div class="content">
-        <h3>welcome to our <span> pizza</span> shop</h3>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui corrupti temporibus deserunt ut placeat, aperiam obcaecati quidem velit autem unde, aliquam harum voluptas recusandae iusto sit tempora. Veritatis, sed quos?</p>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat dolores vero ipsam, iste sint officia tempora assumenda facilis voluptas, porro adipisci quis hic placeat, distinctio eum? Ea consectetur explicabo debitis?</p>
-        <a href="#"></a>
-
-      </div>
-    </div>
-  </section>
-
-     <!-- about section end -->
-
-     <!-- blog section start -->
-
-     <section class="blogs">
-      <h1 class="title"our> <span>blogs</span></h1>
+    <section class="blogs">
+      <h1 class="title" our><span>blogs</span></h1>
       <div class="box-container">
-
         <div class="box">
-          <img src="images/blog-1.jpg" alt="">
+          <img src="images/blog-1.jpg" alt="" />
           <div class="icons">
             <a href="#"><i class="fas fa-calendar"></i>05 june, 2024</a>
             <a href="#"><i class="fas fa-user"></i> by admin</a>
@@ -126,7 +133,7 @@
         </div>
 
         <div class="box">
-          <img src="images/blog-2.jpg" alt="">
+          <img src="images/blog-2.jpg" alt="" />
           <div class="icons">
             <a href="#"><i class="fas fa-calendar"></i>05 june, 2024</a>
             <a href="#"><i class="fas fa-user"></i> by admin</a>
@@ -137,7 +144,7 @@
         </div>
 
         <div class="box">
-          <img src="images/blog-3.jpg" alt="">
+          <img src="images/blog-3.jpg" alt="" />
           <div class="icons">
             <a href="#"><i class="fas fa-calendar"></i>05 june, 2024</a>
             <a href="#"><i class="fas fa-user"></i> by admin</a>
@@ -146,16 +153,18 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
           <a href="#" class="btn">read more</a>
         </div>
-
       </div>
-     </section>
-     <!-- footer section start -->
+    </section>
+    <!-- footer section start -->
 
-     <section class="footer">
+    <section class="footer">
       <div class="box-container">
         <div class="box">
           <h3>find us here</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam minima impedit fugit, assumenda .</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            minima impedit fugit, assumenda .
+          </p>
           <div class="share">
             <a href="#" class="fab fa-facebook-f"></a>
             <a href="#" class="fab fa-twitter"></a>
@@ -171,35 +180,20 @@
 
         <div class="box">
           <h3>localization</h3>
-          <p>230 point of pines dr <br>
-             colorado springs
-             united states</p>
+          <p>
+            230 point of pines dr <br />
+            colorado springs united states
+          </p>
         </div>
-
       </div>
-      <div class="credit">created by <span> bhargav</span> | all rights reserved</div>
-     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="credit">
+        created by <span> bhargav</span> | all rights reserved
+      </div>
+    </section>
 
     <!-- blog section end -->
 
-
-
-  
-
-  <!-- customr js link -->
-   <script src="script.js"></script>
-</body>
+    <!-- customr js link -->
+    <script src="script.js"></script>
+  </body>
 </html>
